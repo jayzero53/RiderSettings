@@ -1,0 +1,13 @@
+[credential]
+	helper = manager
+[user]
+	name = Jose
+	email = jstrachan@ebay.com
+[alias]
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+        bdm = "!git branch --merged | grep -v '*' | xargs -n 1 git branch -d"
+        rank = shortlog -sn --no-merges
+        co = checkout
+	st = status
+        ci = commit
+        br = branch
